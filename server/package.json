@@ -1,0 +1,13 @@
+{
+  "name": "pano-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pano — aile/grup görev takip uygulaması backend'i (sıfır bağımlılık, Node 24+)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

@@ -1,0 +1,57 @@
+# macOS
+.DS_Store
+._*
+
+# Sunucu çalışma verisi: veritabanı + JWT imza anahtarı (gizli — asla commit etme).
+# İlk çalıştırmada kendiliğinden yeniden oluşur.
+server/data/
+
+# Gizli anahtarlar / ortam dosyaları — nerede olursa olsun
+*.key
+*.pem
+*.p12
+*.mobileprovision
+*.cer
+.env
+.env.*
+
+# Veritabanı dosyaları (yanlışlıkla kök dizine düşenler dahil)
+*.db
+*.sqlite
+*.sqlite3
+
+# Node (ileride bağımlılık eklenirse)
+node_modules/
+npm-debug.log*
+*.log
+
+# Xcode
+ios/build/
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.playground
+
+# Arşiv / dağıtım çıktıları
+*.ipa
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+
+# Asistan / editör iç dosyaları
+.claude/
+.vscode/
+.idea/
+
+# Geçici / yedek dosyalar
+*.orig
+*.bak
+*.swp
+*.tmp
+
+# Proje içi notlar
+UYGULAMA.md
